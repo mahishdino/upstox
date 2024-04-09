@@ -1,0 +1,13 @@
+current directory: /Users/aryansolutions/Documents/projects/upstoxx/vendor/bundle/ruby/3.0.0/gems/json-2.7.2/ext/json
+/Users/aryansolutions/.rvm/rubies/ruby-3.0.0/bin/ruby -I /Users/aryansolutions/.rvm/rubies/ruby-3.0.0/lib/ruby/3.0.0 -r ./siteconf20240409-1979-79wy6b.rb extconf.rb
+creating Makefile
+
+current directory: /Users/aryansolutions/Documents/projects/upstoxx/vendor/bundle/ruby/3.0.0/gems/json-2.7.2/ext/json
+make "DESTDIR=" clean
+
+current directory: /Users/aryansolutions/Documents/projects/upstoxx/vendor/bundle/ruby/3.0.0/gems/json-2.7.2/ext/json
+make "DESTDIR="
+make: Nothing to be done for `all'.
+
+current directory: /Users/aryansolutions/Documents/projects/upstoxx/vendor/bundle/ruby/3.0.0/gems/json-2.7.2/ext/json
+make "DESTDIR=" install

@@ -1,0 +1,16 @@
+current directory: /Users/aryansolutions/Documents/projects/upstoxx/vendor/bundle/ruby/3.0.0/gems/nkf-0.2.0/ext/nkf
+/Users/aryansolutions/.rvm/rubies/ruby-3.0.0/bin/ruby -I /Users/aryansolutions/.rvm/rubies/ruby-3.0.0/lib/ruby/3.0.0 -r ./siteconf20240409-1979-u01i58.rb extconf.rb
+creating Makefile
+
+current directory: /Users/aryansolutions/Documents/projects/upstoxx/vendor/bundle/ruby/3.0.0/gems/nkf-0.2.0/ext/nkf
+make "DESTDIR=" clean
+
+current directory: /Users/aryansolutions/Documents/projects/upstoxx/vendor/bundle/ruby/3.0.0/gems/nkf-0.2.0/ext/nkf
+make "DESTDIR="
+compiling nkf.c
+linking shared-object nkf.bundle
+ld: warning: ignoring file /Users/aryansolutions/.rvm/rubies/ruby-3.0.0/lib/libruby.3.0.dylib, building for macOS-x86_64 but attempting to link with file built for macOS-arm64
+
+current directory: /Users/aryansolutions/Documents/projects/upstoxx/vendor/bundle/ruby/3.0.0/gems/nkf-0.2.0/ext/nkf
+make "DESTDIR=" install
+/opt/homebrew/opt/coreutils/bin/ginstall -c -m 0755 nkf.bundle ./.gem.20240409-1979-s29ydg
