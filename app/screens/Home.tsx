@@ -1,6 +1,7 @@
 import React from "react";
 import { Text, View } from "react-native";
 import { apiRequest } from "../api/api.ts";
+import { typography } from "../theme/typography.ts";
 
 const Home = () => {
   React.useEffect(() => {
@@ -19,7 +20,7 @@ const Home = () => {
   };
   return (
     <View>
-      <Text>Home</Text>
+      <Text style={{ fontFamily: typography.MainBold }}>Home</Text>
     </View>
   );
 };
