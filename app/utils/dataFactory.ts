@@ -1,4 +1,5 @@
 import { DataItem } from "./types.ts";
+import { appTexts } from "../constant/constant.ts";
 
 export const createTotalInvestmentAndProfitData = (values: {
   currentValue: number;
@@ -13,9 +14,9 @@ export const createTotalInvestmentAndProfitData = (values: {
     totalProfitAndLoss,
   } = values;
   return [
-    { label: "Current Value", value: currentValue },
-    { label: "Total Investment", value: totalInvestment },
-    { label: "Todays Profit And Loss", value: todaysProfitAndLoss },
-    { label: "Profit & Loss", value: totalProfitAndLoss },
+    { label: appTexts.currentValue, value: currentValue },
+    { label: appTexts.totalInvestment, value: totalInvestment },
+    { label: appTexts.todaysProfitAndLoss, value: todaysProfitAndLoss },
+    { label: appTexts.profitAndLoss, value: totalProfitAndLoss },
   ];
 };

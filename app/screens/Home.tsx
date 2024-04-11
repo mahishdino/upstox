@@ -9,7 +9,7 @@ import {
   View,
 } from "react-native";
 import Header from "../components/Header.tsx";
-import { appTexts } from "../constant/constant.ts";
+import { appTexts, Images } from "../constant/constant.ts";
 import StockItem from "../components/StockItem.tsx";
 import { DataItem, TransformedStockData } from "../utils/types.ts";
 import PrefixAndSuffix from "../components/PrefixAndSuffix.tsx";
@@ -41,7 +41,7 @@ const Home = () => {
   });
   const onRefresh = React.useCallback(() => {
     setIsRefreshing(true);
-    refreshData().then(() => setIsRefreshing(false)); // Ensure refreshData is properly handling state updates
+    refreshData().then(() => setIsRefreshing(false));
   }, [refreshData]);
 
   const renderItem = ({ item }: { item: DataItem }) => (
@@ -80,6 +80,7 @@ const Home = () => {
         refreshing={isRefreshing}
       />
       <TouchableOpacity
+        activeOpacity={0.9}
         onPress={() => {
           setCollapse((prev) => !prev);
         }}
@@ -91,11 +92,7 @@ const Home = () => {
             height: collapse ? rs(20) : rs(17),
           }}
           resizeMode={"contain"}
-          source={
-            collapse
-              ? require("../assets/images/downward-arrow.png")
-              : require("../assets/images/arrow-up.png")
-          }
+          source={collapse ? Images.downArrow : Images.upArrow}
         />
       </TouchableOpacity>
       {collapse ? (

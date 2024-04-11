@@ -9,7 +9,7 @@ const Stack = createStackNavigator();
 const StackContainer = () => {
   return (
     <Stack.Navigator
-      initialRouteName={"getStarted"}
+      initialRouteName={"Home"}
       screenOptions={{
         headerShown: false,
         cardStyleInterpolator: CardStyleInterpolators.forHorizontalIOS,

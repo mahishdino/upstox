@@ -3,8 +3,8 @@ export type Method = "GET" | "POST" | "PUT" | "DELETE";
 export interface ApiRequestParams {
   method: Method;
   url: string;
-  data?: any;
-  params?: any;
+  data?: {};
+  params?: {};
 }
 
 export interface ApiResponse<T> {
