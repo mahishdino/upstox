@@ -119,7 +119,7 @@ export default Home;
 const styles = StyleSheet.create({
   main: {
     flex: 1,
-    backgroundColor: "grey",
+    backgroundColor: Colors.grey,
   },
   collapseButton: {
     padding: 10,
@@ -129,7 +129,7 @@ const styles = StyleSheet.create({
   },
   collapseViewOne: { flex: 1, backgroundColor: Colors.white },
   collapseViewTwo: {
-    backgroundColor: "white",
+    backgroundColor: Colors.white,
     width: "100%",
     height: rs(50),
   },

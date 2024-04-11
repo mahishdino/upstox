@@ -4,4 +4,5 @@ export const Colors = {
   mainBackground: "#fff",
   appButtonBackground: "#D4FB54",
   appBackground: "#5a2989",
+  grey: "grey",
 };
